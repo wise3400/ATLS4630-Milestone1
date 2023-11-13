@@ -37,6 +37,21 @@ nav, ul, li, button:hover
     background-color: white;
 }
 
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    color: rgb(0,0,0);
+    background-color: rgb(255,255,255);
+  
+  }
+
 #container 
 {
     max-width: 1000px;
